@@ -163,22 +163,17 @@ ul {
 
 .logo {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.logo-text {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary);
-    line-height: 1.1;
+.logo-img {
+    height: 50px;
+    width: auto;
 }
 
-.logo-subtitle {
-    font-size: 0.75rem;
-    color: var(--gray-500);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+.footer .logo-img {
+    height: 60px;
+    filter: brightness(0) invert(1);
 }
 
 .nav-menu {
@@ -697,8 +692,9 @@ ul {
     font-size: 0.9375rem;
 }
 
-.footer-brand .logo-text {
-    color: var(--white);
+.footer-brand .logo-img {
+    height: 60px;
+    filter: brightness(0) invert(1);
 }
 
 .footer h4 {
