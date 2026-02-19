@@ -70,13 +70,16 @@
                 <h3>Faites votre don en toute sécurité</h3>
                 <p>Nous utilisons HelloAsso, une plateforme française 100% gratuite pour les associations. Aucuns frais ne sont prélevés sur votre don.</p>
 
-                <!-- IMPORTANT: Remplacez ce lien par votre lien HelloAsso -->
-                <a href="https://www.helloasso.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" style="margin-right: 8px;">
-                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-                    </svg>
-                    Je fais un don sur HelloAsso
-                </a>
+                <!-- Widget HelloAsso intégré -->
+                <div id="helloasso-widget" style="max-width: 800px; margin: 0 auto;">
+                    <iframe
+                        id="haWidget"
+                        src="https://www.helloasso.com/associations/association-l-espoir-saint-avold/formulaires/1/widget"
+                        style="width: 100%; min-height: 750px; border: none;"
+                        loading="lazy"
+                        allow="payment"
+                    ></iframe>
+                </div>
 
                 <div class="helloasso-info">
                     <h4>
