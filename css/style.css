@@ -1262,13 +1262,24 @@ ul {
     text-align: center;
 }
 
-.donate-main h3 {
-    font-size: 1.5rem;
+.donate-main-wide {
+    background: var(--gray-50);
+    border-radius: var(--radius-xl);
+    padding: var(--space-xl);
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-main h3,
+.donate-main-wide h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
     color: var(--gray-900);
     margin-bottom: var(--space-md);
 }
 
-.donate-main p {
+.donate-main p,
+.donate-main-wide p {
     color: var(--gray-600);
     margin-bottom: var(--space-lg);
 }
